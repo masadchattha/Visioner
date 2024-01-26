@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		DC3D81DF2B642A3000825289 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = DC3D81DE2B642A3000825289 /* RealityKitContent */; };
 		DC3D81E12B642A3000825289 /* VisionerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3D81E02B642A3000825289 /* VisionerApp.swift */; };
-		DC3D81E32B642A3000825289 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3D81E22B642A3000825289 /* ContentView.swift */; };
-		DC3D81E52B642A3000825289 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3D81E42B642A3000825289 /* ImmersiveView.swift */; };
 		DC3D81E72B642A3000825289 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = DC3D81E62B642A3000825289 /* ImageBasedLighting.skybox */; };
 		DC3D81E92B642A3100825289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3D81E82B642A3100825289 /* Assets.xcassets */; };
 		DC3D81EC2B642A3100825289 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3D81EB2B642A3100825289 /* Preview Assets.xcassets */; };
@@ -20,8 +18,6 @@
 		DC3D81D92B642A3000825289 /* Visioner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Visioner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3D81DD2B642A3000825289 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		DC3D81E02B642A3000825289 /* VisionerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionerApp.swift; sourceTree = "<group>"; };
-		DC3D81E22B642A3000825289 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DC3D81E42B642A3000825289 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		DC3D81E62B642A3000825289 /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
 		DC3D81E82B642A3100825289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC3D81EB2B642A3100825289 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -60,9 +56,8 @@
 		DC3D81DB2B642A3000825289 /* Visioner */ = {
 			isa = PBXGroup;
 			children = (
-				DC3D81E02B642A3000825289 /* VisionerApp.swift */,
-				DC3D81E22B642A3000825289 /* ContentView.swift */,
-				DC3D81E42B642A3000825289 /* ImmersiveView.swift */,
+				DC3D81F32B642BD000825289 /* App */,
+				DC3D81F42B642BDF00825289 /* View */,
 				DC3D81E62B642A3000825289 /* ImageBasedLighting.skybox */,
 				DC3D81E82B642A3100825289 /* Assets.xcassets */,
 				DC3D81ED2B642A3100825289 /* Info.plist */,
@@ -85,6 +80,21 @@
 				DC3D81EB2B642A3100825289 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC3D81F32B642BD000825289 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DC3D81E02B642A3000825289 /* VisionerApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DC3D81F42B642BDF00825289 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,9 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC3D81E32B642A3000825289 /* ContentView.swift in Sources */,
 				DC3D81E12B642A3000825289 /* VisionerApp.swift in Sources */,
-				DC3D81E52B642A3000825289 /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
