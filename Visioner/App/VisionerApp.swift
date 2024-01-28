@@ -11,7 +11,6 @@ import SwiftUI
 struct VisionerApp: App {
     var body: some Scene {
         WindowGroup {
-            
         }
     }
 }
